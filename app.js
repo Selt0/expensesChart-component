@@ -69,9 +69,6 @@ const config = {
     plugins: {
       legend: {
         display: false,
-        onHover: function (e) {
-          e.target.style.cursor = 'pointer';
-        },
       },
     },
     responsive: true,
